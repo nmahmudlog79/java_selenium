@@ -1,0 +1,21 @@
+package parameterization;
+
+public class DataProvider {
+	
+	void setup() {
+		
+	}
+	
+	void loginTest() {
+		
+	}
+	
+	loginData(){
+		
+	}
+	
+	void closeBrowser() {
+		
+	}
+
+}

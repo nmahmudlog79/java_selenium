@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;web_automation.Cart_Verify&apos; to &apos;AddItemAndMakePayment&apos;&#x0D;&#x0A;- Original project: &apos;Automation_Testing&apos;&#x0D;&#x0A;- Original element: &apos;web_automation.Cart_Verify&apos;&#x0D;&#x0A;- Renamed element: &apos;web_automation.AddItemAndMakePayment&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Cart_Verify&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;web_automation{Cart_Verify.java[Cart_Verify" matchStrategy="1" name="AddItemAndMakePayment" qualified="false" references="true" similarDeclarations="false" stamp="1640111671571" textual="false" version="1.0"/>
+</session>

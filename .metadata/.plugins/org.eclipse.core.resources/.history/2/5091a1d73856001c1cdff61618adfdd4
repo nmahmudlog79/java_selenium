@@ -1,0 +1,31 @@
+package parameterization;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+public class DataProvider {
+	
+	@BeforeClass
+	void setup() {
+		
+	}
+	
+	@Test
+	void loginTest(String username, String password) {
+		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
+		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
+		driver.findElement(By.name("Submit")).click();
+	}
+	
+	loginData(){
+		
+	}
+	
+	@AfterClass
+	void closeBrowser() {
+		
+	}
+
+}

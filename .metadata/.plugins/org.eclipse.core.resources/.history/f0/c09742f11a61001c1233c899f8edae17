@@ -1,0 +1,32 @@
+package loop_problem;
+
+	//Write a method that uses a while loop. This method would replace every vowel in the String with X. Call your method from the main method.
+public class ReplaceVowel {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	public String replaceVowel(String str) {
+		String replacedString = "";
+		int i = 0;
+		
+		while (i < str.length()) {
+			if (str.charAt(i) == ('a') || str.charAt(i) == ('e') 
+					|| str.charAt(i) == ('i') || str.charAt(i) == ('o')
+					|| str.charAt(i) == ('u'))
+				replacedString += 'x';{
+					
+			} else {
+				replacedString += str.charAt(i);
+			}i++;
+		} return replacedString;
+		
+		
+		
+		
+	}
+	
+
+}

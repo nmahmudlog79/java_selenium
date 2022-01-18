@@ -1,0 +1,81 @@
+package databaseConnection;
+
+public class Students {
+	
+	private String firstName;
+	private String lastName;
+	private String score;
+	private String id;
+	
+	public Students() {
+		
+	}
+
+	public Students(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public Students(String firstName, String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
+
+	public Students(String firstName, String lastName, String score) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.score = score;
+	}
+
+	public Students(String firstName, String lastName, String score, String id) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.score = score;
+		this.id = id;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getScore() {
+		return score;
+	}
+
+	public void setScore(String score) {
+		this.score = score;
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+	
+	
+	public void studentInformation() {
+		System.out.println("This is student information");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

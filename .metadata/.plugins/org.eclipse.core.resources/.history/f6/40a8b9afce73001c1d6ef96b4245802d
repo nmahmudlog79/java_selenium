@@ -1,0 +1,10 @@
+package databaseConnection;
+
+public class DataBaseConnectionDirectly {
+	
+	//Database Connection: JDBC Connection
+	String url = "jdbc:mysql://localhost:3306/?serverTimezone=UTC&useSSL=false";
+	String user = "root";
+	String password = "password";
+
+}

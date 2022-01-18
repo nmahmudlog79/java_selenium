@@ -1,0 +1,36 @@
+package databaseConnection;
+
+import java.sql.Connection;
+import java.sql.Statement;
+import java.util.ArrayList;
+
+public class DataBaseConnectionDirectly {
+	
+	//Database Connection: JDBC Connection
+	String url = "jdbc:mysql://localhost:3306/?serverTimezone=UTC&useSSL=false";
+	String user = "root";
+	String password = "password";
+	
+	//Create connection
+	Connection connection = null;
+	Statement statement = null;
+	
+	//Movie Class is using insert data
+    Movie mi2 = new Movie(10, "MI2", 2001, "action", "PG-12");
+    Movie forrestGump = new Movie(11, "Forrest Gump", 1994, "romance", "PG-10");
+    Movie harryPotter = new Movie(7, "Harry Potter", 2001, "Animation", "PG-13");
+    Movie janitou = new Movie(6, "Janitou", 1985, "drama", "PG-11");
+    Movie fastAndFurious = new Movie(2, "Fast And Furious", 2001, "Action", "PG-7");
+
+    ArrayList<Movie> movies = new ArrayList<>();
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

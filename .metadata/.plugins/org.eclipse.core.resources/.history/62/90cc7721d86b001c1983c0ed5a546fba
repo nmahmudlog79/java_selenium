@@ -1,0 +1,18 @@
+package volunteer_sign_up;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class HandleStaleElement1 {
+
+	public static void main(String[] args) {
+		System.setProperty("web.chrome.driver", "C://Drivers//chromedriver_win32//chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://www.pavantestingtool.com");
+		driver.manage().window().maximize();
+		
+		Thread.sleep(3000);
+
+	}
+
+}

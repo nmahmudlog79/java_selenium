@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;constructor_chaining.Constructor_Chaining&apos; to &apos;Employee&apos;&#x0D;&#x0A;- Original project: &apos;Practice&apos;&#x0D;&#x0A;- Original element: &apos;constructor_chaining.Constructor_Chaining&apos;&#x0D;&#x0A;- Renamed element: &apos;constructor_chaining.Employee&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Constructor_Chaining&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;constructor_chaining{Constructor_Chaining.java[Constructor_Chaining" matchStrategy="1" name="Employee" qualified="false" references="true" similarDeclarations="false" stamp="1641311014060" textual="false" version="1.0"/>
+</session>
